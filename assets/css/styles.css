@@ -293,6 +293,7 @@ transition: color .4s;
  }
  .home__image{
   max-width: 400px;
+  margin-left: 50%;
   justify-self: center;
  }
  .home__image{
@@ -620,12 +621,14 @@ transition: color .4s;
   
   .home__title{
     font-size: 2.5rem;
+
   }
   
   .home__footer{
     flex-direction: column;
     row-gap: 2rem;
   }
+
 
   .new__content{
     grid-template-columns: 200px;
