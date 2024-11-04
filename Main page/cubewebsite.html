@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cube Solver Input</title>
+    <link rel="stylesheet" href="csscubesite.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="cube-input">
+        <div class="color-key">
+            <h3>Color Key:</h3>
+            <p>W = White, R = Red, B = Blue, O = Orange, G = Green, Y = Yellow</p>
+        </div>
+
+        <h2>Enter Your Cube's Configuration</h2>
+        <form id="cubeForm">
+            <!-- Front face -->
+            <div class="face">
+                <label for="frontFace">Front Face:</label>
+                <div class="stickers" id="frontFace">
+                    <input type="text" id="f00" name="f00" maxlength="1" />
+                    <input type="text" id="f01" name="f01" maxlength="1" />
+                    <input type="text" id="f02" name="f02" maxlength="1" />
+                    <input type="text" id="f10" name="f10" maxlength="1" />
+                    <input type="text" id="f11" name="f11" maxlength="1" />
+                    <input type="text" id="f12" name="f12" maxlength="1" />
+                    <input type="text" id="f20" name="f20" maxlength="1" />
+                    <input type="text" id="f21" name="f21" maxlength="1" />
+                    <input type="text" id="f22" name="f22" maxlength="1" />
+                </div>
+            </div>
+
+            <!-- Repeated face input sections (up, right, back, down, left) -->
+            <div class="face">
+                <label for="upFace">Up Face:</label>
+                <div class="stickers" id="upFace">
+                    <input type="text" id="u00" name="u00" maxlength="1" />
+                    <input type="text" id="u01" name="u01" maxlength="1" />
+                    <input type="text" id="u02" name="u02" maxlength="1" />
+                    <input type="text" id="u10" name="u10" maxlength="1" />
+                    <input type="text" id="u11" name="u11" maxlength="1" />
+                    <input type="text" id="u12" name="u12" maxlength="1" />
+                    <input type="text" id="u20" name="u20" maxlength="1" />
+                    <input type="text" id="u21" name="u21" maxlength="1" />
+                    <input type="text" id="u22" name="u22" maxlength="1" />
+                </div>
+            </div>
+
+            <div class="face">
+                <label for="rightFace">Right Face:</label>
+                <div class="stickers" id="rightFace">
+                    <input type="text" id="r00" name="r00" maxlength="1" />
+                    <input type="text" id="r01" name="r01" maxlength="1" />
+                    <input type="text" id="r02" name="r02" maxlength="1" />
+                    <input type="text" id="r10" name="r10" maxlength="1" />
+                    <input type="text" id="r11" name="r11" maxlength="1" />
+                    <input type="text" id="r12" name="r12" maxlength="1" />
+                    <input type="text" id="r20" name="r20" maxlength="1" />
+                    <input type="text" id="r21" name="r21" maxlength="1" />
+                    <input type="text" id="r22" name="r22" maxlength="1" />
+                </div>
+            </div>
+
+            <div class="face">
+                <label for="backFace">Back Face:</label>
+                <div class="stickers" id="backFace">
+                    <input type="text" id="b00" name="b00" maxlength="1" />
+                    <input type="text" id="b01" name="b01" maxlength="1" />
+                    <input type="text" id="b02" name="b02" maxlength="1" />
+                    <input type="text" id="b10" name="b10" maxlength="1" />
+                    <input type="text" id="b11" name="b11" maxlength="1" />
+                    <input type="text" id="b12" name="b12" maxlength="1" />
+                    <input type="text" id="b20" name="b20" maxlength="1" />
+                    <input type="text" id="b21" name="b21" maxlength="1" />
+                    <input type="text" id="b22" name="b22" maxlength="1" />
+                </div>
+            </div>
+
+            <div class="face">
+                <label for="downFace">Down Face:</label>
+                <div class="stickers" id="downFace">
+                    <input type="text" id="d00" name="d00" maxlength="1" />
+                    <input type="text" id="d01" name="d01" maxlength="1" />
+                    <input type="text" id="d02" name="d02" maxlength="1" />
+                    <input type="text" id="d10" name="d10" maxlength="1" />
+                    <input type="text" id="d11" name="d11" maxlength="1" />
+                    <input type="text" id="d12" name="d12" maxlength="1" />
+                    <input type="text" id="d20" name="d20" maxlength="1" />
+                    <input type="text" id="d21" name="d21" maxlength="1" />
+                    <input type="text" id="d22" name="d22" maxlength="1" />
+                </div>
+            </div>
+
+            <div class="face">
+                <label for="leftFace">Left Face:</label>
+                <div class="stickers" id="leftFace">
+                    <input type="text" id="l00" name="l00" maxlength="1" />
+                    <input type="text" id="l01" name="l01" maxlength="1" />
+                    <input type="text" id="l02" name="l02" maxlength="1" />
+                    <input type="text" id="l10" name="l10" maxlength="1" />
+                    <input type="text" id="l11" name="l11" maxlength="1" />
+                    <input type="text" id="l12" name="l12" maxlength="1" />
+                    <input type="text" id="l20" name="l20" maxlength="1" />
+                    <input type="text" id="l21" name="l21" maxlength="1" />
+                    <input type="text" id="l22" name="l22" maxlength="1" />
+                </div>
+            </div>
+            <div class="submit"><p>Follow these steps : F R D R’ F’ U L U’ R’ D’ R D U’ L’ U L U R U’ R’ U’ F’ U F F R U R’ U’ F’ U R U’ L’ U R’ U’ L R’ D’ R D F2 U L R’ F2 R L’ U F2</p></div>
+            <div class="submit">
+                <button type="submit">Solve Cube</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
